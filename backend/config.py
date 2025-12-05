@@ -47,7 +47,7 @@ class DevelopmentConfig(Config):
 class ProductionConfig(Config):
     """Production configuration"""
 
-    DEBUG = True
+    DEBUG = False
 
 
 config = {

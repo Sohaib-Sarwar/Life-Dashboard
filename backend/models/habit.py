@@ -4,10 +4,11 @@ from extensions import db
 
 class Habit(db.Model):
     """Habit model for tracking daily/weekly habits"""
+
     __tablename__ = "habits"
 
-    FREQUENCY_OPTIONS = ['daily', 'weekly', 'weekdays', 'weekends']
-    DEFAULT_COLORS = ['#3B82F6', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6', '#EC4899']
+    FREQUENCY_OPTIONS = ["daily", "weekly", "weekdays", "weekends"]
+    DEFAULT_COLORS = ["#3B82F6", "#10B981", "#F59E0B", "#EF4444", "#8B5CF6", "#EC4899"]
 
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)

@@ -4,10 +4,11 @@ from extensions import db
 
 class Task(db.Model):
     """Task model for todo/task management"""
+
     __tablename__ = "tasks"
 
-    PRIORITY_LEVELS = ['low', 'medium', 'high', 'urgent']
-    STATUS_OPTIONS = ['pending', 'in_progress', 'completed', 'cancelled']
+    PRIORITY_LEVELS = ["low", "medium", "high", "urgent"]
+    STATUS_OPTIONS = ["pending", "in_progress", "completed", "cancelled"]
 
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
