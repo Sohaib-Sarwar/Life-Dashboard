@@ -4,6 +4,7 @@ from extensions import db
 
 
 class User(db.Model):
+    """User model for authentication and profile management"""
     __tablename__ = "users"
 
     id = db.Column(db.Integer, primary_key=True)
