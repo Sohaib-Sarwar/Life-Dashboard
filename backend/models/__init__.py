@@ -1,4 +1,4 @@
-from extensions import db
+from app import db
 from .user import User
 from .task import Task
 from .habit import Habit, HabitLog
