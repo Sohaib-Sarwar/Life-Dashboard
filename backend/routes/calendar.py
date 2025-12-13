@@ -192,7 +192,7 @@ def get_month_view():
         # Add tasks to calendar
         for task in tasks:
             if task.due_date:
-                date_str = task.due_date.date().isoformat()
+                date_str = task.due_date.isoformat()
                 if date_str in calendar_data:
                     calendar_data[date_str]['tasks'].append({
                         'id': task.id,
