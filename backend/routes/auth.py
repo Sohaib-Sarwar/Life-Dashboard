@@ -2,6 +2,8 @@ from flask import Blueprint, request, jsonify, current_app
 from flask_jwt_extended import create_access_token, jwt_required, get_jwt_identity
 from models import User, db
 
+from datetime import date, timedelta
+
 auth_bp = Blueprint("auth", __name__)
 
 
@@ -53,7 +55,6 @@ def register():
 def login():
     """User login"""
     try:
-        from datetime import date, timedelta
 
         data = request.get_json()
 
