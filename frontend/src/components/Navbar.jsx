@@ -223,9 +223,9 @@ const styles = {
     background: 'rgba(var(--bg-secondary-rgb, 255, 255, 255), 0.25)',
     backdropFilter: 'blur(12px)',
     WebkitBackdropFilter: 'blur(12px)',
-    transition: 'all 0.25s ease',
     cursor: 'pointer',
     boxShadow: '0 1px 4px rgba(0, 0, 0, 0.04)',
+    transition: 'all 0.25s ease',
   },
   logoutBtn: {
     padding: '7px 12px',

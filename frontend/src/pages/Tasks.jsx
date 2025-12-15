@@ -1048,7 +1048,6 @@ const styles = {
     margin: 0,
   },
   addButton: {
-    fontSize: '1rem',
     padding: '12px 28px',
     display: 'flex',
     alignItems: 'center',

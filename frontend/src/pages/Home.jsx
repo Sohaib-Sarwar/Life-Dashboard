@@ -1218,11 +1218,6 @@ const styles = {
     transition: 'color 0.2s ease',
     cursor: 'pointer',
   },
-  footerBottom: {
-    paddingTop: '24px',
-    borderTop: '1px solid #1a1a1a',
-    textAlign: 'center',
-  },
   footerCopyright: {
     maxWidth: '1200px',
     margin: '0 auto',
