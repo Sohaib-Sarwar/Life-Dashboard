@@ -184,8 +184,9 @@ const styles = {
   userInfo: {
     display: 'flex',
     alignItems: 'center',
-    gap: '7px',    cursor: 'pointer',
-    transition: 'opacity 0.2s ease',    padding: '5px 10px',
+    gap: '7px',
+    cursor: 'pointer',
+    padding: '5px 10px',
     borderRadius: '10px',
     background: 'rgba(var(--bg-secondary-rgb, 255, 255, 255), 0.25)',
     border: '1px solid rgba(var(--border-rgb, 0, 0, 0), 0.08)',
