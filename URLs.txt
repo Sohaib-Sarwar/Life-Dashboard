@@ -1,0 +1,11 @@
+Backend Deployed via railway on api.life-dashboard.fit
+
+Database deployed on GCP on db.life-dashboard.fit
+
+Frontend on vercel, www.life-dashboard.fit
+
+
+MAIN URL: www.life-dashboard.fit
+
+
+GitHub URL: https://github.com/Sohaib-Sarwar/Life-Dashboard
